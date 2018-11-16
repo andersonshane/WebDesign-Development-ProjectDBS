@@ -1,0 +1,560 @@
+/* -------------------------------------------- */
+/* Basic Styling                               */
+/* ------------------------------------------ */
+
+
+
+html, body {
+    margin: 0px;
+    background-color: #000;
+    color: #0174c5;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+h1{
+    height: 0px;
+    text-indent: -99999px;
+    font-size: 1px;
+    position: absolute;
+}
+h2{
+    color: #ffffff;
+    position: absolute;
+    text-indent: -99999px;
+}
+h3{
+    color: #fff;
+    font-family: StrangeloveNextNarrow, sans-serif;
+    font-weight: normal;
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin: -4px 0px 2px 0px;
+}
+
+/* -------------------------------------------- */
+/* Top Nav Color                               */
+/* ------------------------------------------ */
+p{
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0174c5;
+    margin: 0px 0px 12px 0px;
+    padding-right: 10px;
+}
+p strong{
+    color: #ddd;
+}
+p.large{
+    font-size: 20px;
+    color: #fff;
+}
+p.large strong{
+    background-color: #30363a;
+    padding: 0px 4px 0px 4px;
+}
+p a{
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px dotted #888;
+}
+p a:hover {
+    border-bottom: 1px dotted #fff;
+
+}
+
+/* -------------------------------------------- */
+/* B&B Logo                                    */
+/* ------------------------------------------ */
+
+
+#bblogo {
+
+    position: absolute;
+
+    top: 90px;
+
+}
+
+
+/* -------------------------------------------- */
+/* What's On Styling                           */
+/* ------------------------------------------ */
+
+#whatson {
+
+    position: absolute;
+    right: 260px;
+    top: 100px;
+    padding-bottom: 200px;
+
+}
+/* -------------------------------------------- */
+/* Contact Box Position                        */
+/* ------------------------------------------ */
+
+/* -------------------------------------------- */
+/* Booking & Contact Positions                 */
+/* ------------------------------------------ */
+
+#contact-us {
+
+    position: absolute;
+    right: 560px;
+    top: 100px;
+    padding-bottom:100px;
+
+}
+#contactbook {
+
+    position: absolute;
+    right: 870px;
+    top: 100px;
+    padding-bottom: 100px;
+
+}
+
+/* -------------------------------------------- */
+/* Sitemap Position                            */
+/* ------------------------------------------ */
+
+#sitelinks {
+
+    position: absolute;
+    right: 870px;
+    top: 100px;
+    padding-bottom: 100px;
+    color: #000000;
+    width: 200px;
+    border: 5px gray;
+
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: rgba(255, 255, 255, 0.4)10px 10px;
+    font-family: WG;
+    font-size: 100%;
+    line-height: 1.5em;
+
+
+}
+
+
+/* -------------------------------------------- */
+/* Frequency Asked Questions                   */
+/* ------------------------------------------ */
+
+#faq li a {
+
+    text-decoration: underline;
+    position: absolute;
+    padding-right: 200px;
+    top: 100px;
+    padding-bottom: 100px;
+    right: 500px;
+}
+#faq{
+width: 400px;
+border: 5px gray;
+padding: 50px;
+margin: 50px;
+background: rgba(255, 255, 255, 0.8);
+box-shadow: rgba(255, 255, 255, 0.4)10px 10px;
+font-family: WG;
+font-size: 100%;
+line-height: 1.5em;
+text-align: left;
+right: 2060px;
+}
+
+#faq-position {
+    position: absolute;
+    right: 220px;
+    top: 100px;
+
+}
+/* -------------------------------------------- */
+/* Galway Image                                */
+/* ------------------------------------------ */
+
+
+#boxwrap {
+    position: absolute;
+    left: 300px;
+    top: 200px
+
+
+}
+
+
+
+/* -------------------------------------------- */
+/* Page Borders                                */
+/* ------------------------------------- ---- */
+#top, #bottom, #left, #right {
+    position: fixed;
+    outline: 3px solid #0174c5;
+    background: #fff;
+}
+
+#left, #right {
+    top: 0;
+    bottom: 0;
+    width: 111px;
+
+}
+
+#left {
+    left: 0;
+}
+
+#right {
+    right: 0;
+}
+
+#top, #bottom {
+    left: 0;
+    right: 0;
+    height: 0px;
+}
+
+#top {
+    top: 0;
+}
+
+#bottom {
+    bottom: 0;
+}
+
+
+/* -------------------------------------------- */
+/* Index Page Left & Right Sea Images          */
+/* ------------------------------------------ */
+
+
+.sideleft {
+    float: bottom;
+    bottom: -620px;
+    width: 112px;
+    clear: left;
+    position: absolute;
+    left: -11px
+}
+
+.sideright {
+    float: bottom;
+    bottom: -620px;
+    width: 112px;
+    clear: right;
+    position: absolute;
+    right: -1px
+
+
+}
+/* -------------------------------------------- */
+/* Navigation Box Content                      */
+/* ------------------------------------------ */
+#navboxplace{
+    height: 90px;
+    margin-bottom: -90px;
+}
+#navboxplace.start{
+    margin-top: 520px;
+    margin-bottom: -90px;
+}
+
+
+/* -------------------------------------------- */
+/* Top Navigation Bar                          */
+/* ------------------------------------------ */
+
+#navbox{
+    width: 100%;
+    margin: 0 auto;
+    height: 90px;
+    position: fixed;
+    top: 0px;
+    z-index: 500;
+    background-color: #000;
+    border-top: 1px dotted #000;
+    margin-bottom: -90px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,.5);
+}
+#navbox.start{
+    width: 980px;
+    position: relative;
+    border-top: 1px dotted #555;
+}
+#navbox.start a.logo{
+    cursor: default;
+}
+#nav{
+    height: 23px;
+    left: 155px;
+    top: 44px;
+    position: relative;
+}
+#nav a{
+    text-indent: 99999px;
+    text-align: right;
+    line-height: 50px;
+    display: inline-block;
+    height: 23px;
+    background-image: url( );
+    background-size: auto 47px;
+    background-repeat: no-repeat;
+    margin: 0px;
+    position: absolute;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 1px;
+
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+}
+#nav a:hover{
+    opacity: 1;
+}
+
+.anchor{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+
+/* --------------------------------------------- */
+/* Topbar Footer                                */
+/* ------------------------------------------- */
+#laycontent{
+    font-family:tall_films_expandedregular, Helvetica, san-serif;
+    font-size:24px;
+    line-height:24px;
+    letter-spacing:1px;
+    -webkit-font-smoothing: antialiased;
+    text-transform:uppercase;
+}
+
+#laycontent }
+#laycontent #topbar h1{
+    margin:0px;
+    padding:0px;
+}
+#laycontent #topbar h1 img{
+    width:70%;
+    height:64px;
+    max-width:980px;
+    margin:10px 20px;
+    padding:0px;
+
+
+}
+#laycontent #overlayfooter{
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    background:black;
+    z-index:300;
+    text-align:center;
+}
+#laycontent #overlayfooter p{
+    padding:0px 0px;
+    margin:0px;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    border-radius: 70px;
+}
+/*---Overlay Font Colour---*/
+#laycontent a{
+    text-decoration:none;
+    color:#0174c5;
+}
+#laycontent a:hover{
+    color:#f6bb00;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    border-radius: 70px;
+    border: 2px red;
+
+}
+/*----Overlay----*/
+.galwaybb{
+    background-color:#fff;
+    background-image: url();
+    background-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* -------------------------------------------- */
+/* Overlay Footer Styling                      */
+/* ------------------------------------------ */
+
+
+.galwaybb #overlayfooter{
+    border-top:-111px solid white;
+    border-top:1px solid rgba(255,255,255,0.7);
+    position:fixed !important;
+
+}
+#galwaybbcontent{
+    margin:15% 5%;
+    width:45%;
+
+
+}
+#galwaybbcontent p{
+    font-size:40px;
+    line-height:48px;
+    margin:0px;
+
+}
+#galwaybbcontent h2{
+    margin:0px;
+    padding:0px;
+    margin-bottom:85px;
+
+}
+#galwaybbcontent h2 img{
+    width:100%;
+    height:auto;
+}
+#galwaybbcontent p a:hover{
+    color:red;
+}
+.galwaybb #overlayfooter form{
+    float:none;
+    width:auto;
+    display:inline-block;
+
+}
+.galwaybb #overlayfooter #footercontent{
+    padding:0px 0px;
+    margin:0px;
+    border-radius: 70px 70px;
+    border-color: #fff;
+
+
+
+
+
+}
+
+.wrap{
+    width: 980px;
+    margin: 0 auto;
+}
+a{
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+}
+/* all handheld devices */
+@media all and (min-device-width : 300px) and (max-device-width : 1200px) {
+    html, body {
+        overflow: hidden;
+    }
+
+    p {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+
+
+}
+
+
+/* -------------------------------------------- */
+/* Footer                                      */
+/* ------------------------------------------ */
+
+
+
+.footer {
+    background-color: #0a0a0a;
+    font-size: 100%;
+    color: #1b1b1b;
+    border-top: 1px dotted #f6bb00;
+    border-top-width: thin;
+    clear:both;
+
+
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+
+
+}
+
+.wrapper {
+    min-height: 100%;
+
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: 320px;
+
+}
+
+/* -------------------------------------------- */
+/* Google Maps - Main Index                    */
+/* ------------------------------------------ */
+
+.map {
+    width: 84%;
+    height: 300px;
+    float: bottom;
+    bottom: 0px;
+    left: 115px;
+    border-top: 1px dotted #f6bb00;
+}
+
+.wrapper {
+    min-height: 100%;
+    
+
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: 0px;
+}
+
+/* ---------------------------------------------------- */
+/* Pushes Footer Down when additional content is added */
+/* -------------------------------------------------- */
+
+.push {
+    height: 760px;
+
+} /* ------------Whats On------------------ */
+
+
+.pushwo {
+
+    height: 2500px;
+
+} /* ------------Local Attraction------------------ */
+
+.pushla {
+
+    height: 2500px;
+
+} /* ------------Contacts------------------ */
+
+.pushcontact {
+
+    height: 950px;
+
+}
+
+.push-sitemap {
+
+    height: 950px;
